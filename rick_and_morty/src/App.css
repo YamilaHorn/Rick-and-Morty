@@ -1,0 +1,16 @@
+.App {
+   text-align: center;
+}
+
+body {
+   background-image: url("./components/asets/fondo.jpg");
+   background-position: center center;
+   background-size: cover;
+   width: 100%;
+   background-repeat: no-repeat;
+   height: 100vh;
+   max-width: 960px;
+   margin: auto;
+   background-attachment: fixed;
+} 
+

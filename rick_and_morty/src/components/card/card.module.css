@@ -1,0 +1,154 @@
+.fondo {
+  border: 5px solid black;
+  padding: 2px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 3px;
+  object-fit: scale-down;
+  background-image: url(../asets/portal.gif);
+  width: 250px;
+  height: 500px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+  text-align: center;
+  
+
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(33, 143, 132);
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: 9px;
+  font-family: shlop;
+  letter-spacing: 6px;
+  text-shadow: 1px 1px greenyellow;
+
+}
+
+@font-face {
+  font-family: get;
+  src: url("../font/get_schwifty.ttf");
+}
+
+
+p {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  font-family: get;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: shlop;
+  src: url(../font/shlop\ rg.otf)
+}
+
+button {
+  color: black;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-image: url("../asets/portal1.gif");
+  background-size: 110;
+  background-position: center ;
+  transition: transform 0.5s ease;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  font-family: shlop;
+  letter-spacing: 2.5px;
+  text-shadow: 1px 1px white;
+
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+buttonfav {
+  color: black;
+  padding-top: .1px;
+  padding-right: .1px;
+  padding-bottom: .1px;
+  padding-left: .1px;
+  margin-top: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-image: url("../asets/portal1.gif");
+  background-size: 110;
+  background-position: center ;
+  transition: transform 0.5s ease;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  font-family: shlop;
+  letter-spacing: 2.5px;
+  text-shadow: 1px 1px white;
+  display: block;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+buttonfav:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.fondo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fondo img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-top: 5px;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+  transition: transform 0.5s ease;
+  border: 2px solid rgb(65, 182, 65);
+  border-radius: 10px;
+  
+
+}
+
+.fondo img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
